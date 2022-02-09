@@ -1,0 +1,19 @@
+module RAM(add, );
+	input logic [31:0] add;
+	input logic [3:0] dataIn;
+	input logic wr_enable, clk;
+	output logic [3:0] dataOut;
+	logic [3:0] ram [31:0];
+	
+	always_ff @(posedge clk) 
+		begin
+			if(wr_enable) 
+				begin
+					ram[add] <= dataIn;
+					dataOut <= ram[add];
+				end
+		end
+endmodule
+		
+			
+		

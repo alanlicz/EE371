@@ -1,0 +1,52 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do DE1_SoC_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Alan/Documents/UW/EE\ 371/lab2/lab2_task2 {C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task2/hexDisplay.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:59:32 on Feb 03,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task2" C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task2/hexDisplay.sv 
+# -- Compiling module hexDisplay
+# -- Compiling module hexDisplay_testbench
+# 
+# Top level modules:
+# 	hexDisplay_testbench
+# End time: 12:59:32 on Feb 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.hexDisplay_testbench
+# vsim work.hexDisplay_testbench 
+# Start time: 12:59:36 on Feb 03,2022
+# Loading sv_std.std
+# Loading work.hexDisplay_testbench
+# Loading work.hexDisplay
+add wave -position end  sim:/hexDisplay_testbench/writeData
+add wave -position end  sim:/hexDisplay_testbench/writeAddress
+add wave -position end  sim:/hexDisplay_testbench/ramData
+add wave -position end  sim:/hexDisplay_testbench/ramAddress
+add wave -position end  sim:/hexDisplay_testbench/clk
+add wave -position end  sim:/hexDisplay_testbench/HEX5
+add wave -position end  sim:/hexDisplay_testbench/HEX4
+add wave -position end  sim:/hexDisplay_testbench/HEX3
+add wave -position end  sim:/hexDisplay_testbench/HEX2
+add wave -position end  sim:/hexDisplay_testbench/HEX1
+add wave -position end  sim:/hexDisplay_testbench/HEX0
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Alan  Hostname: DESKTOP-EL406ML  ProcessID: 18572
+#           Attempting to use alternate WLF file "./wlftz7q0qs".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz7q0qs
+run -all
+# ** Note: $stop    : C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task2/hexDisplay.sv(144)
+#    Time: 700 ps  Iteration: 1  Instance: /hexDisplay_testbench
+# Break in Module hexDisplay_testbench at C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task2/hexDisplay.sv line 144
+# End time: 13:00:29 on Feb 03,2022, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 2

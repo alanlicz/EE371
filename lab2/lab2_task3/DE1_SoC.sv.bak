@@ -1,0 +1,5 @@
+module DE1_SoC();
+	input full;
+	output LED[9]
+	
+	assign LED[9] = full;

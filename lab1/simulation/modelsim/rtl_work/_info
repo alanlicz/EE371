@@ -1,0 +1,62 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Alan/Documents/UW/EE 371/lab1/simulation/modelsim
+vhexDisplay
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1643092027
+!i10b 1
+!s100 J2GBf=I5ZQF29j82f]k7;2
+IPB@iO5gYL2hZ[j>cg1U?T1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 hexDisplay_sv_unit
+S1
+R0
+Z5 w1642298274
+Z6 8C:/Users/Alan/Documents/UW/EE 371/lab1/hexDisplay.sv
+Z7 FC:/Users/Alan/Documents/UW/EE 371/lab1/hexDisplay.sv
+L0 11
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1643092027.000000
+Z10 !s107 C:/Users/Alan/Documents/UW/EE 371/lab1/hexDisplay.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/Documents/UW/EE 371/lab1|C:/Users/Alan/Documents/UW/EE 371/lab1/hexDisplay.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/Alan/Documents/UW/EE 371/lab1}
+Z14 tCvgOpt 0
+nhex@display
+vhexDisplay_testbench
+R1
+R2
+!i10b 1
+!s100 gbQN2Qd75:9S1L@?mG^4b1
+IFa@NJ4PQeYdbGmES5_BG03
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 84
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+nhex@display_testbench

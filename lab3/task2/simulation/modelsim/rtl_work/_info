@@ -1,0 +1,112 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Alan/Documents/UW/EE 371/lab3/simulation/modelsim
+vDE1_SoC
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1644115415
+!i10b 1
+!s100 467TVlShPd2>2P?:<D[4^1
+IVB<7gLN3V_O5=2VbRDIXh0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 DE1_SoC_sv_unit
+S1
+R0
+w1644029299
+8C:/Users/Alan/Documents/UW/EE 371/lab3/DE1_SoC.sv
+FC:/Users/Alan/Documents/UW/EE 371/lab3/DE1_SoC.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1644115415.000000
+!s107 C:/Users/Alan/Documents/UW/EE 371/lab3/DE1_SoC.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/Documents/UW/EE 371/lab3|C:/Users/Alan/Documents/UW/EE 371/lab3/DE1_SoC.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work {+incdir+C:/Users/Alan/Documents/UW/EE 371/lab3}
+Z7 tCvgOpt 0
+n@d@e1_@so@c
+vline_drawer
+R1
+Z8 !s110 1644115414
+!i10b 1
+!s100 8bc9e_>961S`=zT<[S`_[2
+IW9hg34RBb_:F2L1MC9dgN2
+R3
+Z9 !s105 line_drawer_sv_unit
+S1
+R0
+Z10 w1644115352
+Z11 8C:/Users/Alan/Documents/UW/EE 371/lab3/line_drawer.sv
+Z12 FC:/Users/Alan/Documents/UW/EE 371/lab3/line_drawer.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z13 !s108 1644115414.000000
+Z14 !s107 C:/Users/Alan/Documents/UW/EE 371/lab3/line_drawer.sv|
+Z15 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/Documents/UW/EE 371/lab3|C:/Users/Alan/Documents/UW/EE 371/lab3/line_drawer.sv|
+!i113 1
+R5
+R6
+R7
+vline_drawer_testbench
+R1
+R8
+!i10b 1
+!s100 X9lnNajA>3Q`oAb1lJ5fI0
+I<i<?Uz;9>F2eOXl]WoQ[k1
+R3
+R9
+S1
+R0
+R10
+R11
+R12
+L0 83
+R4
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+R5
+R6
+R7
+vVGA_framebuffer
+R1
+R2
+!i10b 1
+!s100 `6A`P2RPlQ@7gHH_0b8;_1
+IEm1iJ7h]eIP;FDSfB[E4L0
+R3
+!s105 VGA_framebuffer_sv_unit
+S1
+R0
+w1643857595
+8C:/Users/Alan/Documents/UW/EE 371/lab3/VGA_framebuffer.sv
+FC:/Users/Alan/Documents/UW/EE 371/lab3/VGA_framebuffer.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Alan/Documents/UW/EE 371/lab3/VGA_framebuffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/Documents/UW/EE 371/lab3|C:/Users/Alan/Documents/UW/EE 371/lab3/VGA_framebuffer.sv|
+!i113 1
+R5
+R6
+R7
+n@v@g@a_framebuffer

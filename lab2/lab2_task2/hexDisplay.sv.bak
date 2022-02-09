@@ -1,0 +1,71 @@
+module hexDisplay();
+	input [3:0] data;
+	input [4:0] address;
+	input [6:0] HEX3, HEX2, HEX0; 
+	
+	
+	//										6543210
+	parameter [6:0]	zero = 	7'b1000000,	
+							one =  	7'b1111001,
+							two =  	7'b0100100,
+							three = 	7'b0110000,
+							four =	7'b0011001,
+							five =	7'b0010010,
+							six = 	7'b0000010,
+							seven =	7'b1111000,
+							eight = 	7'b0000000,
+							nine = 	7'b0011000,
+							A = 		7'b0001000,
+							B = 		7'b0000011,
+							C = 		7'b1000110,
+							D = 		7'b0100001,
+							E = 		7'b0000110,
+							F = 		7'b0001110,
+							blk = 	7'b1111111;
+	
+	always_comb begin
+		HEX3 = nlk;
+		HEX2 = blk; 
+		HEX0 = blk; 
+		case(dataIn)
+			4'b0000: HEX0 = zero;
+			4'b0001:	HEX0 = one;
+			4'b0010:	HEX0 = two;
+			4'b0011: HEX0 = three;
+			4'b0100: HEX0 = four;
+			4'b0101:	HEX0 = five;
+			4'b0110: HEX0 = six;
+			4'b0111: HEX0 = seven;
+			4'b1000:	HEX0 = eight;
+			4'b1001: HEX0 = nine;
+			4'b1010: HEX0 = A;
+			4'b1011: HEX0 = B;
+			4'b1100: HEX0 = C;
+			4'b1101: HEX0 = D;
+			4'b1110: HEX0 = E;
+			4'b1111: HEX0 = F;
+		endcase
+		
+		case(address[3:0])
+			4'b0000: HEX2 = zero;
+			4'b0001:	HEX2 = one;
+			4'b0010:	HEX2 = two;
+			4'b0011: HEX2 = three;
+			4'b0100: HEX2 = four;
+			4'b0101:	HEX2 = five;
+			4'b0110: HEX2 = six;
+			4'b0111: HEX2 = seven;
+			4'b1000:	HEX2 = eight;
+			4'b1001: HEX2 = nine;
+			4'b1010: HEX2 = A;
+			4'b1011: HEX2 = B;
+			4'b1100: HEX2 = C;
+			4'b1101: HEX2 = D;
+			4'b1110: HEX2 = E;
+			4'b1111: HEX2 = F;
+		endcase
+		if (address[4] == 1'b1) 
+				HEX3 = one;
+		else 
+				HEX3 = blk;
+endmodule

@@ -1,0 +1,29 @@
+
+State Machine - |DE1_SoC|counter:mycounter|ps
+Name ps~6 ps~5 ps~4 ps~3 ps~2 
+ps.zero 0 0 0 0 0 
+ps.one 0 0 0 0 1 
+ps.two 0 0 0 1 0 
+ps.three 0 0 0 1 1 
+ps.four 0 0 1 0 0 
+ps.five 0 0 1 0 1 
+ps.six 0 0 1 1 0 
+ps.seven 0 0 1 1 1 
+ps.eight 0 1 0 0 0 
+ps.nine 0 1 0 0 1 
+ps.ten 0 1 0 1 0 
+ps.eleven 0 1 0 1 1 
+ps.twelve 0 1 1 0 0 
+ps.thirteen 0 1 1 0 1 
+ps.fourteen 0 1 1 1 0 
+ps.fifteen 0 1 1 1 1 
+ps.sixteen 1 0 0 0 0 
+ps.seventeen 1 0 0 0 1 
+ps.eighteen 1 0 0 1 0 
+ps.nineteen 1 0 0 1 1 
+ps.twenty 1 0 1 0 0 
+ps.twentyone 1 0 1 0 1 
+ps.twentytwo 1 0 1 1 0 
+ps.twentythree 1 0 1 1 1 
+ps.twentyfour 1 1 0 0 0 
+ps.twentyfive 1 1 0 0 1 

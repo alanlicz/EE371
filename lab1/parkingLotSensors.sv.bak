@@ -1,0 +1,46 @@
+module parkingLotSensors(clk, reset, A, B, enter, exit);
+	input logic A, B, clk, reset;
+	output logic enter, exit;
+	
+	// States
+	enum {unblocked, sensorA, sensorB, blocked} ps, ns;
+	always_comb
+		case(ps)
+		
+			// unblocked = 2b'00 
+			unblocked: 
+				
+				if (~A & B)				ns = sensorB;
+				else if (A & ~B)  	ns = sensorA;
+				else 						ns = unblocked;
+				
+			sensorB:
+				if (~A & ~B) begin
+											ns = unblocked;
+											enter = 1;
+											exit = 0;
+				end
+				else if (A & ~B) 		ns = sensorB;
+				else if (A & B) 		ns = sensorA;
+				else 						ns = unblocked;
+				
+			blocked:
+				if (~A & B) 			ns = sensorA;
+				else if (A & B)		ns = blocked;
+				else if (A & ~B)		ns = sensorB;
+			
+			sensorA:
+				if (~A & ~B) begin
+											ns = unblocked;
+											exit = 1;
+											enter = 0;
+				end
+				else if (~A % B) 		ns = sensorA;
+				else if (A & B)		ns = blocked;
+					
+			default: enter = 0; exit = 0;
+					
+			
+		endcase
+endmodule				
+	

@@ -1,0 +1,11 @@
+module userInput(clk, D, Q);
+	input clk, D;
+	output logic Q;
+	logic temp;
+	
+	always_ff @(posedge clk) begin
+		temp <= D;
+		Q <= temp;
+	end
+	
+endmodule

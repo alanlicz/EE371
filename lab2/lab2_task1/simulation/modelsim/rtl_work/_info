@@ -1,0 +1,162 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Alan/Documents/UW/EE 371/lab2_task1/simulation/modelsim
+vDE1_SoC
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1643595583
+!i10b 1
+!s100 if1:G0JfN_?VL4OX6X6Wa3
+IS_i;Ye0IA[Db3IdE4gg@G3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 DE1_SoC_sv_unit
+S1
+R0
+Z5 w1643595562
+Z6 8C:/Users/Alan/Documents/UW/EE 371/lab2_task1/DE1_SoC.sv
+Z7 FC:/Users/Alan/Documents/UW/EE 371/lab2_task1/DE1_SoC.sv
+L0 7
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1643595583.000000
+Z10 !s107 C:/Users/Alan/Documents/UW/EE 371/lab2_task1/DE1_SoC.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/Documents/UW/EE 371/lab2_task1|C:/Users/Alan/Documents/UW/EE 371/lab2_task1/DE1_SoC.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/Alan/Documents/UW/EE 371/lab2_task1}
+Z14 tCvgOpt 0
+n@d@e1_@so@c
+vDE1_SoC_testbench
+R1
+R2
+!i10b 1
+!s100 9lb9QNi]njda67^J^?Qjo2
+InBHzIX;f0ZQ>73ne2hQ]i3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 21
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@d@e1_@so@c_testbench
+vdisplay
+R1
+R2
+!i10b 1
+!s100 ]P=gFckMNA4iR:_l9ga?d1
+I_VGho`U<@^?Lbe>2UBV0a0
+R3
+Z15 !s105 display_sv_unit
+S1
+R0
+Z16 w1643593321
+Z17 8C:/Users/Alan/Documents/UW/EE 371/lab2_task1/display.sv
+Z18 FC:/Users/Alan/Documents/UW/EE 371/lab2_task1/display.sv
+L0 8
+R8
+r1
+!s85 0
+31
+R9
+Z19 !s107 C:/Users/Alan/Documents/UW/EE 371/lab2_task1/display.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/Documents/UW/EE 371/lab2_task1|C:/Users/Alan/Documents/UW/EE 371/lab2_task1/display.sv|
+!i113 1
+R12
+R13
+R14
+vdisplay_testbench
+R1
+R2
+!i10b 1
+!s100 VN0lfVHShkH5IHno0gTK;1
+I@S3`WeR7icZEOQ>nTbT_31
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 107
+R8
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R12
+R13
+R14
+vram
+R1
+R2
+!i10b 1
+!s100 <VoCJ^Td1nBM<8ZNIZJOO2
+IYoa10mOSSH0a=l>;Nd8>>3
+R3
+Z21 !s105 ram_sv_unit
+S1
+R0
+Z22 w1643594322
+Z23 8C:/Users/Alan/Documents/UW/EE 371/lab2_task1/ram.sv
+Z24 FC:/Users/Alan/Documents/UW/EE 371/lab2_task1/ram.sv
+L0 8
+R8
+r1
+!s85 0
+31
+R9
+Z25 !s107 C:/Users/Alan/Documents/UW/EE 371/lab2_task1/ram.sv|
+Z26 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/Documents/UW/EE 371/lab2_task1|C:/Users/Alan/Documents/UW/EE 371/lab2_task1/ram.sv|
+!i113 1
+R12
+R13
+R14
+vram_testbench
+R1
+R2
+!i10b 1
+!s100 iYbV0bSdn>@5>ZCBej`zR1
+IN4ni<Hz;Gkejgc_M8[7713
+R3
+R21
+S1
+R0
+R22
+R23
+R24
+L0 28
+R8
+r1
+!s85 0
+31
+R9
+R25
+R26
+!i113 1
+R12
+R13
+R14
