@@ -2,12 +2,13 @@ module line_drawer(
 	input logic clk, reset,
 	
 	// x and y coordinates for the start and end points of the line
-	input logic [10:0]	x0, x1, 
-	input logic [9:0] y0, y1,
+	input logic [9:0]	x0, x1, 
+	input logic [8:0] y0, y1,
 
 	//outputs cooresponding to the coordinate pair (x, y)
 	output logic [9:0] x,
-	output logic [8:0] y 
+	output logic [8:0] y,
+	output logic done
 	);
 	
 	/*
@@ -38,15 +39,10 @@ module line_drawer(
 		
 		if (y0 < y1) sy = 1;
 		else sy = -1;
-		/*
-		if (xPointer == x1+i) begin
-			i <= i+1;
-			xPointer = x0 + i;
-			yPointer = y0;
-		end
-		*/
 	end
-
+	
+	assign done = i[0];
+	
 	always_ff @(posedge clk) begin
 		if (reset) begin
 			error <= deltaX + deltaY;
@@ -98,8 +94,8 @@ endmodule
 
 module line_drawer_testbench();
 	logic clk, reset;
-	logic [10:0]	x0, x1; 
-	logic [9:0] y0, y1;
+	logic [9:0]	x0, x1; 
+	logic [8:0] y0, y1;
 	logic [9:0] x;
 	logic [8:0] y;
 	
@@ -113,7 +109,7 @@ module line_drawer_testbench();
 	
 	initial begin
 		
-		reset <= 1; x0 <= 100; y0 <= 100; x1 <= 150; y1 <= 300; @(posedge clk);
+		reset <= 1; x0 <= 1; y0 <= 1; x1 <= 12; y1 <= 5; @(posedge clk);
 		reset <= 0; @(posedge clk);
 		repeat(500) @(posedge clk);
 		

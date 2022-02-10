@@ -11,8 +11,9 @@ add wave -noupdate /line_drawer_testbench/dut/deltaX
 add wave -noupdate -radix symbolic /line_drawer_testbench/dut/sy
 add wave -noupdate -radix symbolic /line_drawer_testbench/dut/sx
 add wave -noupdate /line_drawer_testbench/dut/i
+add wave -noupdate /line_drawer_testbench/dut/done
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {1032 ps} 0}
+WaveRestoreCursors {{Cursor 1} {639 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100

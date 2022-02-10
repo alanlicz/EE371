@@ -80,6 +80,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "done",
+					"strict" : false
+				},
+				{
 					"name" : "clk",
 					"strict" : false
 				},
@@ -97,10 +101,6 @@
 				},
 				{
 					"name" : "x1[9]",
-					"strict" : false
-				},
-				{
-					"name" : "x1[10]",
 					"strict" : false
 				},
 				{
@@ -128,7 +128,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "y1[9]",
+					"name" : "y1[8]",
 					"strict" : false
 				},
 				{
@@ -140,15 +140,15 @@
 					"strict" : false
 				},
 				{
+					"name" : "y1[5]",
+					"strict" : false
+				},
+				{
 					"name" : "y1[6]",
 					"strict" : false
 				},
 				{
 					"name" : "y1[7]",
-					"strict" : false
-				},
-				{
-					"name" : "y1[8]",
 					"strict" : false
 				},
 				{
@@ -169,10 +169,6 @@
 				},
 				{
 					"name" : "y1[4]",
-					"strict" : false
-				},
-				{
-					"name" : "y1[5]",
 					"strict" : false
 				},
 				{
@@ -245,14 +241,6 @@
 				},
 				{
 					"name" : "x0[9]",
-					"strict" : false
-				},
-				{
-					"name" : "x0[10]",
-					"strict" : false
-				},
-				{
-					"name" : "y0[9]",
 					"strict" : false
 				}
 			]
