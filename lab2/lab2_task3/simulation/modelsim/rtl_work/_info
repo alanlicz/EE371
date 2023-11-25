@@ -7,31 +7,31 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/simulation/modelsim
+Z0 dC:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/simulation/modelsim
 vDE1_SoC
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1643771352
+Z2 !s110 1665686522
 !i10b 1
 !s100 ]LTFHPLa`zznem_GDRm:43
-I<zJCj1P5JHWR>ANhn[ZlL1
+I4`bdEi>C1QcZ2YVhLFP_D1
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 Z4 !s105 DE1_SoC_sv_unit
 S1
 R0
-Z5 w1643771332
-Z6 8C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/DE1_SoC.sv
-Z7 FC:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/DE1_SoC.sv
+Z5 w1650337836
+Z6 8C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/DE1_SoC.sv
+Z7 FC:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/DE1_SoC.sv
 L0 8
 Z8 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z9 !s108 1643771352.000000
-Z10 !s107 C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/DE1_SoC.sv|
-Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3|C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/DE1_SoC.sv|
+Z9 !s108 1665686522.000000
+Z10 !s107 C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/DE1_SoC.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3|C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/DE1_SoC.sv|
 !i113 1
 Z12 o-sv -work work
-Z13 !s92 -sv -work work {+incdir+C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3}
+Z13 !s92 -sv -work work +incdir+C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3
 Z14 tCvgOpt 0
 n@d@e1_@so@c
 vDE1_SoC_testbench
@@ -39,7 +39,7 @@ R1
 R2
 !i10b 1
 !s100 kZbV@=V8h2FUMWk7]eAPG2
-IV;2H`;I:CWZmXDNSYidE22
+IN]gkiPhkOFZ9;Igz[^3Q>1
 R3
 R4
 S1
@@ -62,25 +62,25 @@ R14
 n@d@e1_@so@c_testbench
 vFIFO
 R1
-Z15 !s110 1643771353
+R2
 !i10b 1
 !s100 kQO`Co<JORCQN5;MDKgN?1
-IleeiiGOW5zCMQEG:9LV363
+I1[MNU`EFdUn4k`E<K3BSO0
 R3
-Z16 !s105 FIFO_sv_unit
+Z15 !s105 FIFO_sv_unit
 S1
 R0
-Z17 w1643770067
-Z18 8C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/FIFO.sv
-Z19 FC:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/FIFO.sv
+R5
+Z16 8C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/FIFO.sv
+Z17 FC:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/FIFO.sv
 L0 8
 R8
 r1
 !s85 0
 31
-Z20 !s108 1643771353.000000
-Z21 !s107 C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/FIFO.sv|
-Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3|C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/FIFO.sv|
+R9
+Z18 !s107 C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/FIFO.sv|
+Z19 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3|C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/FIFO.sv|
 !i113 1
 R12
 R13
@@ -91,22 +91,22 @@ R1
 R2
 !i10b 1
 !s100 VH=7K_5`Ui=6McQ::Nl3n2
-IHj4eKRNOhVkb^S^U86DfF0
+I08D3We@kozGIR<CI>g`>k3
 R3
-Z23 !s105 FIFO_Control_sv_unit
+Z20 !s105 FIFO_Control_sv_unit
 S1
 R0
-Z24 w1643769870
-Z25 8C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/FIFO_Control.sv
-Z26 FC:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/FIFO_Control.sv
+R5
+Z21 8C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/FIFO_Control.sv
+Z22 FC:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/FIFO_Control.sv
 L0 8
 R8
 r1
 !s85 0
 31
 R9
-Z27 !s107 C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/FIFO_Control.sv|
-Z28 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3|C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/FIFO_Control.sv|
+Z23 !s107 C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/FIFO_Control.sv|
+Z24 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3|C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/FIFO_Control.sv|
 !i113 1
 R12
 R13
@@ -117,22 +117,22 @@ R1
 R2
 !i10b 1
 !s100 6Q<C4ABUTS^;_H>oN7Gek1
-IZzR1BOz1<78b_h?l6eV=E3
+Im=QlE8YK5FA>VbRHmn94Q0
 R3
-R23
+R20
 S1
 R0
-R24
-R25
-R26
+R5
+R21
+R22
 L0 85
 R8
 r1
 !s85 0
 31
 R9
-R27
-R28
+R23
+R24
 !i113 1
 R12
 R13
@@ -140,25 +140,25 @@ R14
 n@f@i@f@o_@control_testbench
 vFIFO_testbench
 R1
-R15
+R2
 !i10b 1
 !s100 iFnZmRm8mTlVZeadDSbUk3
-I]g@Ro:FbHJE4f0IUEl`cS3
+ISRBJD_zl[fQL?oG5HLWF12
 R3
-R16
+R15
 S1
 R0
+R5
+R16
 R17
-R18
-R19
 L0 46
 R8
 r1
 !s85 0
 31
-R20
-R21
-R22
+R9
+R18
+R19
 !i113 1
 R12
 R13
@@ -166,25 +166,25 @@ R14
 n@f@i@f@o_testbench
 vhexDisplay
 R1
-R15
+R2
 !i10b 1
 !s100 8jO;ToielfJgObngf:<FZ0
-IVDP00AVf2@>W]2eYTMEB31
+IkB4SkNP65D=<`UfN4^hFf2
 R3
-Z29 !s105 hexDisplay_sv_unit
+Z25 !s105 hexDisplay_sv_unit
 S1
 R0
-Z30 w1643611550
-Z31 8C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/hexDisplay.sv
-Z32 FC:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/hexDisplay.sv
+R5
+Z26 8C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/hexDisplay.sv
+Z27 FC:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/hexDisplay.sv
 L0 8
 R8
 r1
 !s85 0
 31
 R9
-Z33 !s107 C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/hexDisplay.sv|
-Z34 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3|C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/hexDisplay.sv|
+Z28 !s107 C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/hexDisplay.sv|
+Z29 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3|C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/hexDisplay.sv|
 !i113 1
 R12
 R13
@@ -192,18 +192,92 @@ R14
 nhex@display
 vhexDisplay_testbench
 R1
-R15
+R2
 !i10b 1
 !s100 ]L;H44G;Il?]2??KcK;hb2
-ICMab?2mP=B6eSFN@;UaWP2
+IHQA=T4EiSNG3]od3ki3ed1
 R3
-R29
+R25
 S1
 R0
+R5
+R26
+R27
+L0 121
+R8
+r1
+!s85 0
+31
+R9
+R28
+R29
+!i113 1
+R12
+R13
+R14
+nhex@display_testbench
+vram16x8
+R2
+!i10b 1
+!s100 =V9e8[TUc?e`93o]ToH9d3
+I^Fk>^`k]VTbDSe8nz5dJ@0
+R3
+R0
+R5
+8C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/ram16x8.v
+FC:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/ram16x8.v
+L0 40
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/ram16x8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3|C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/ram16x8.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3
+R14
+vreadPointer
+R1
+R2
+!i10b 1
+!s100 9S[MIzL@R5A[VInf[m9XW3
+I8Xhjk_fzM@OaXN[FZInkc3
+R3
+Z30 !s105 readPointer_sv_unit
+S1
+R0
+R5
+Z31 8C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/readPointer.sv
+Z32 FC:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/readPointer.sv
+L0 8
+R8
+r1
+!s85 0
+31
+R9
+Z33 !s107 C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/readPointer.sv|
+Z34 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3|C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/readPointer.sv|
+!i113 1
+R12
+R13
+R14
+nread@pointer
+vreadPointer_testbench
+R1
+R2
+!i10b 1
+!s100 :I?mjfNB^X>_74hN2KV??1
+I3@>a]l8a9LT;2gC4DkFLe1
+R3
 R30
+S1
+R0
+R5
 R31
 R32
-L0 121
+L0 28
 R8
 r1
 !s85 0
@@ -215,102 +289,28 @@ R34
 R12
 R13
 R14
-nhex@display_testbench
-vram16x8
-R2
-!i10b 1
-!s100 =V9e8[TUc?e`93o]ToH9d3
-Il>mFOJ:[Ih6A?Ea083zmR1
-R3
-R0
-w1643515963
-8C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/ram16x8.v
-FC:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/ram16x8.v
-L0 40
-R8
-r1
-!s85 0
-31
-R9
-!s107 C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/ram16x8.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3|C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/ram16x8.v|
-!i113 1
-o-vlog01compat -work work
-!s92 -vlog01compat -work work {+incdir+C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3}
-R14
-vreadPointer
-R1
-R2
-!i10b 1
-!s100 9S[MIzL@R5A[VInf[m9XW3
-IfNSF`l[0;_M=O8dQMHmF50
-R3
-Z35 !s105 readPointer_sv_unit
-S1
-R0
-Z36 w1643766768
-Z37 8C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/readPointer.sv
-Z38 FC:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/readPointer.sv
-L0 8
-R8
-r1
-!s85 0
-31
-R9
-Z39 !s107 C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/readPointer.sv|
-Z40 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3|C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/readPointer.sv|
-!i113 1
-R12
-R13
-R14
-nread@pointer
-vreadPointer_testbench
-R1
-R2
-!i10b 1
-!s100 :I?mjfNB^X>_74hN2KV??1
-IRSF<8<LP00fja;gMzC>_]2
-R3
-R35
-S1
-R0
-R36
-R37
-R38
-L0 28
-R8
-r1
-!s85 0
-31
-R9
-R39
-R40
-!i113 1
-R12
-R13
-R14
 nread@pointer_testbench
 vwritePointer
 R1
 R2
 !i10b 1
 !s100 0X38D82F7NCf>UYE<gW283
-Ign7S7zSHcPonIfig=E@0i1
+I8XP6NgG^oC<lM]4i:HGnY0
 R3
-Z41 !s105 writePointer_sv_unit
+Z35 !s105 writePointer_sv_unit
 S1
 R0
-Z42 w1643766980
-Z43 8C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/writePointer.sv
-Z44 FC:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/writePointer.sv
+R5
+Z36 8C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/writePointer.sv
+Z37 FC:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/writePointer.sv
 L0 8
 R8
 r1
 !s85 0
 31
 R9
-Z45 !s107 C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/writePointer.sv|
-Z46 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3|C:/Users/Alan/Documents/UW/EE 371/lab2/lab2_task3/writePointer.sv|
+Z38 !s107 C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/writePointer.sv|
+Z39 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3|C:/Users/Alan/iCloudDrive/Documents/UW/EE371/lab2/lab2_task3/writePointer.sv|
 !i113 1
 R12
 R13
@@ -321,22 +321,22 @@ R1
 R2
 !i10b 1
 !s100 >9aE^bkkPVZNPz?9c6HB80
-I7DRTOLClW5C]9m0:eO]Bo1
+I^B5UnNTS1aGeD;nAl1Uoi3
 R3
-R41
+R35
 S1
 R0
-R42
-R43
-R44
+R5
+R36
+R37
 L0 29
 R8
 r1
 !s85 0
 31
 R9
-R45
-R46
+R38
+R39
 !i113 1
 R12
 R13

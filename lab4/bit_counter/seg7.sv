@@ -1,3 +1,8 @@
+// Alan Li
+// 02/25/2022
+// EE 371
+// Lab #4
+
 // This module displays the value on the hex led display
 module seg7(val, leds);
 	input logic [3:0] val;

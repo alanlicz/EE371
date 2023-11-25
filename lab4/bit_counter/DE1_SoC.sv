@@ -1,8 +1,13 @@
-// This module counts the number of switches that are on
-// within switch 0 to switch 7. Switch 9 is used to start
-// counting and when key0 is pressed, the system would count again
-// The result would be displayed on HEX0 and LED 9 would light up
-// when finishes counting
+// Alan Li
+// 02/25/2022
+// EE 371
+// Lab #4
+ 
+// DE1_SoC takes 3-bit KEY and 10-bit SW as input and return 7-bit HEX and 10-bit LEDR as output. 
+// Switch 9 is used to start counting and when KEY0 is pressed, the system would go back to initial state and count again
+// The value of counter will be displayed on HEX display, after the counting is done LEDR[9] will turn on
+// This serves as top-level module for the bitCounter system 
+
 module DE1_SoC (SW, KEY, LEDR, HEX0, CLOCK_50);
 	input logic [9:0] SW;
 	input logic [3:0] KEY;
